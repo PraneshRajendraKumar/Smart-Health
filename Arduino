@@ -47,6 +47,7 @@ void setup() {
   pinMode(50, OUTPUT);
   pinMode(51, OUTPUT);
   pinMode(52, OUTPUT);
+  
   Serial.begin(9600);
   Serial.println("Press any key to start");
   digitalWrite(50, HIGH);
