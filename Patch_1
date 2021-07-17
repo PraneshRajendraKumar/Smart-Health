@@ -1,6 +1,4 @@
 #include <Wire.h>
-
-
 #include "HX711.h"
 #define calibration_factor 10700.0 
 #define LOADCELL_DOUT_PIN  4
